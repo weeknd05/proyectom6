@@ -21,7 +21,7 @@ class FetchVillagesData extends Command
      * @var string
      */
     protected $description = 'Se encarga de coger datos de la api de MediaWiki, procesarlos y añadirlos a la base de datos';
-
+//safsa 
     /**
      * Execute the console command.
      */

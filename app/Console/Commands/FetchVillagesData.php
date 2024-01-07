@@ -77,6 +77,7 @@ class FetchVillagesData extends Command
                 $provinceCode = $matches[2];
                 $provinceName = $this->mapProvinceCodeToName($provinceCode);
                 $villagesArray[$villageName] = $provinceName;
+
             }
         }
         return $villagesArray;
